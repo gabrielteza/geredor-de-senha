@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: #4E42F0;
+    color: #fff;
+}
+.container{
+    margin: 160px;
+    width: 500px;    
+    margin-top: 300px;
+    margin-bottom: 30px;
+    margin-left: 720px;
+}
+.display{
+    width: 500px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    background: #fff;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 26px 20px;
+    border-radius: 5px;
+    position: absolute;
+    left: 50%;
+    margin-left: -250px; /*Sempre a metade da largura do elemento*/
+}
+.container h1{
+    font-weight: 500;
+    font-size: 45px;
+    margin-left: 50px;
+}
+.container h1 span{
+    color: #F0D441;
+    border-bottom: 4px solid #F0D441;
+    padding-bottom: 7px;
+}
+.display img{
+    width: 30px;
+    cursor: pointer;
+}
+.display input{
+    border: 0;
+    outline: 0;
+    font-size: 24px;
+}
+.container button img{
+    width: 28px;
+    margin-right: 10px;
+    margin-top: 10px;
+    background: #F0D441;
+}
+.container button{
+    border: 0;
+    outline: 0;
+    background: #F0D441;
+    margin-top: 200px;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 26px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 110px;
+}
+.nome{
+    margin-top: 260px;
+    margin-left: 150px;
+}
